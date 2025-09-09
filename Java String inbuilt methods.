@@ -1,0 +1,28 @@
+package com.ajp.day2;
+
+import java.util.*;
+
+public class ExampleOfString {
+    public static void main(String[] args) {
+        String s = "Java/Python/php/C++/Javascript";
+
+        // String methods examples
+        System.out.println(s.contains("Python"));     // true
+        System.out.println(s.charAt(2));              // v
+        System.out.println(s.startsWith("J"));        // true
+        System.out.println(s.endsWith("script"));     // true
+        System.out.println(s.toLowerCase());          // java/python/php/c++/javascript
+        System.out.println(s.toUpperCase());          // JAVA/PYTHON/PHP/C++/JAVASCRIPT
+        System.out.println(s.isEmpty());              // false
+    }
+}
+
+
+Answer:
+true
+v
+true
+true
+java/python/php/c++/javascript
+JAVA/PYTHON/PHP/C++/JAVASCRIPT
+false
