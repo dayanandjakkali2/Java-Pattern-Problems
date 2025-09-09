@@ -1,0 +1,17 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+       
+
+String s="good evening";
+StringTokenizer st=new StringTokenizer(s," ");
+while(st.hasMoreTokens())
+{
+    System.out.println(st.nextToken());
+}
+}
+}
+
+Answer:
+good
+evening
